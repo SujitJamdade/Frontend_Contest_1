@@ -1,0 +1,273 @@
+
+body{
+    width: 1728px;
+    height: 2399px; 
+    background: black; 
+    margin: 0px;
+    /* min-height: 100%; */
+}
+
+header{
+    width: 1728px;
+    height: 86px;
+    flex-shrink: 0;
+    background: #FCAF02;
+    position: fixed;
+   
+}
+
+
+.logo-text{
+    width: 127px;
+    height: 39px;
+    padding-top: 24px;
+    padding-left: 58px;
+    float: left;
+    display:inline;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-decoration-line: underline;
+}
+
+.right-nav{
+    float: right;
+}
+
+ul li{
+    display:inline;
+    list-style-type: none;
+    Width : 130px;
+    /* height: 34px; */
+    margin-right: 40px;
+    line-height: normal;
+    
+   
+  }
+
+  ul{
+    padding-top: 24px;
+    padding-right: 230px;
+ 
+  }
+
+.flex-container {
+ 
+    padding-top: 154px;
+    padding-left: 58px;
+    display: flex;
+    color: white;
+    height: 497px;
+  }
+
+  .flex-container .landing-text{
+    width: 917px;
+  }
+
+.landing-text h1{
+    
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34.13px;
+}
+
+.landing-text p{
+
+    width: 917px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rectangle2{
+    width: 323px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 500px;
+    background: #FCAF02;  
+    margin-top: 50px;    
+}
+
+.login{
+
+    padding: 12px 120px;
+    background: transparent;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+/*  contact us */
+.contact{
+
+    padding-left: 63px;
+}
+.contact h1{
+    color: #FCAF02;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rectangle3{
+    margin-top: 30px;
+    background-color: transparent;
+    width: 1570px;
+    height: 82px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+}
+
+.l1{
+    padding:  15px 40px;
+    margin: 10px;
+    border: none;
+    width: 917px;
+    color: #FCAF02;
+    background: transparent;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inlineblock{
+    display: flex;
+}
+.rectangleMobile{
+    margin-top: 30px;
+    width: 730px;
+    height: 82px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+}
+
+.rectangleCity{
+    margin-top: 30px;
+    width: 767px;
+    height: 82px;
+    margin-left: 65px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+}
+
+#mobNumber{
+
+    padding:  15px 40px;
+    margin: 10px;
+    width: 426.376px;
+    color: #FCAF02;
+    background: transparent;
+    border: none;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#city{
+    padding:  15px 40px;
+    margin: 10px;
+    width: 447.987px;
+    color: #FCAF02;
+    background: transparent;
+    border: none;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rectangleSubmit{
+
+    width: 325px;
+    height: 82px;
+    margin-top: 35px;
+    margin-left: 600px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+    background: #FCAF02;
+}
+
+.submit{
+
+    color: #000;
+    background: transparent;
+    border: none;
+    margin-top: 20px;
+    margin-left: 65px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rectangle4{
+
+    color: #FCAF02;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1582px;
+    height: 755px;
+    flex-shrink: 0;
+    border: 2px solid #FCAF02;
+    margin-top: 116px;
+    margin-left: 75px;
+    margin-bottom: 120px;
+}
+
+
+th {
+    border: 1px solid #FCAF02;
+  }
+
+table td + td { 
+    border-left:2px solid #FCAF02; 
+}
+
+th, td {
+    padding: 15px;
+    text-align:  center;
+  }
+
+.footer{
+    color: black;
+    width: 1582px;
+    height: 91px;
+    flex-shrink: 0;
+    background: #FCAF02;
+    font-family: Montserrat;
+    font-size: 28px;
+    
+   
+    font-weight: 400;
+    line-height: normal;
+ 
+}
+
